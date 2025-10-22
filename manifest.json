@@ -14,5 +14,10 @@
       "matches": ["*://*.facebook.com/*"],
       "js": ["reelblock.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@reelblock.philipholy"
+    }
+  }
 }
