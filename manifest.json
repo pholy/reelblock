@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Reelblock",
+  "version": "1.0",
+
+  "description": "Blocks Facebook reels.",
+
+  "icons": {
+    "48": "icons/x_reels_48x48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["reelblock.js"]
+    }
+  ]
+}
